@@ -1,7 +1,10 @@
 import { Profile } from "./Profile/Profile";
+import { Statistics } from "./Statistics/Statistics";
 import user from "user.json";
+import data from "data.json";
 
-export const App = ({username, tag, location, avatar, followers, views, likes}) => {
+
+export const App = () => {
   return (
     <>
       <Profile 
@@ -13,6 +16,8 @@ export const App = ({username, tag, location, avatar, followers, views, likes}) 
     views={user.stats.views}
     likes={user.stats.likes}
     />
+<Statistics title="Upload stats" stats={data} />
+{/* <Statistics stats={data} /> */}
     </>
   );
 };
