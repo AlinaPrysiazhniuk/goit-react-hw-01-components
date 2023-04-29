@@ -8,7 +8,7 @@ export const Statistics =({title, stats}) => {
   
     <ul className={css.stat_list}>
     {stats.map(({id, label, percentage})=> (
-            <li className={css.item} key={id}>
+            <li className={css.item} key={id} >
                 <span className={css.label}>{label}</span>
                 <span className={css.percentage}>{percentage}</span>
             </li> 
@@ -28,5 +28,6 @@ propTypes.shape({
 }).isRequired
 ).isRequired,
 }
+
 
 

@@ -2,6 +2,7 @@ import propTypes from 'prop-types';
 import css from "./FriendsItem.module.css";
 import friends from "friends.json";
 
+
 export const FriendsItem = ({avatar, name, isOnline, id}) => {
 return (
     friends.map(({avatar, name, isOnline, id})=> (
