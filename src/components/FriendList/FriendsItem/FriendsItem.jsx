@@ -13,3 +13,16 @@ return (
 ))
 )
 }
+
+
+FriendsItem.propTypes = {
+    friends: propTypes.arrayOf(
+        propTypes.shape(
+            {
+            avatar: propTypes.string,
+            name: propTypes.string,
+            isOnline: propTypes.bool,
+         id: propTypes.number,
+        }
+    ) )
+    }
