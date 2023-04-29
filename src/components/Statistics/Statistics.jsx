@@ -1,6 +1,5 @@
 import propTypes from 'prop-types'; 
 import css from "./Statistics.module.css";
-//import data from "data.json";
 
 export const Statistics =({title, stats}) => {
     return (
@@ -25,7 +24,7 @@ stats: propTypes.arrayOf(
 propTypes.shape({
     id: propTypes.string.isRequired,
     label: propTypes.string.isRequired,
-percentage: propTypes.number.isRequired,
+    percentage: propTypes.number.isRequired,
 }).isRequired
 ).isRequired,
 }
