@@ -1,6 +1,6 @@
 import propTypes from 'prop-types'; 
 import css from "./Profile.module.css";
-import {username, tag, location, avatar, followers, views, likes} from "user.json";
+//import {username, tag, location, avatar, followers, views, likes} from "user.json";
 
 
 export const Profile =({username, tag, location, avatar, followers, views, likes}) => {
