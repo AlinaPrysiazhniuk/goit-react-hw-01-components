@@ -3,12 +3,14 @@ import css from "./Profile.module.css";
 import user from "user.json";
 
 export const Profile =({username, tag, location, avatar, followers, views, likes}) => {
-    return (<div className={css.profile}>
+    return (
+    <div className={css.profile}>
     <div className={css.description}>
       <img
         src={user.avatar}
         alt={user.username}
         className={css.avatar}
+        width="100"
       />
       <p className={css.name}>{user.username}</p>
       <p className={css.tag}>{user.tag}</p>
@@ -28,7 +30,8 @@ export const Profile =({username, tag, location, avatar, followers, views, likes
         <span className={css.quantity}>{user.stats.likes}</span>
       </li>
     </ul>
-  </div>)
+  </div>
+  )
 }
 
 Profile.propTypes = {
