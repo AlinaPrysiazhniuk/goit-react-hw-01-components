@@ -1,6 +1,8 @@
 .transaction_history {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .transaction_body {
@@ -24,8 +26,10 @@
 
 .td_thead {
   width: 20%;
-  padding: 12px 0;
+  padding: 12px;
   text-align: center;
 }
 
-
+.tr_body:nth-child(2n) {
+  background-color: rgb(199, 199, 203);
+}
