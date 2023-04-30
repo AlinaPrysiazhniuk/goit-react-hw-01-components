@@ -1,22 +1,31 @@
-/* <table class="transaction-history">
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
-  </thead>
+.transaction_history {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  <tbody>
-    <tr>
-      <td>Invoice</td>
-      <td>125</td>
-      <td>USD</td>
-    </tr>
-    <tr>
-      <td>Withdrawal</td>
-      <td>85</td>
-      <td>USD</td>
-    </tr>
-  </tbody>
-</table> */
+.transaction_body {
+  background-color: #ffffff;
+}
+
+.thead {
+  background-color: #4dbecd;
+  color: #ffffff;
+}
+
+.tr_thead {
+  text-align: center;
+}
+
+.th_thead {
+  width: 20%;
+  padding: 12px 0;
+}
+
+
+.td_thead {
+  width: 20%;
+  padding: 12px 0;
+  text-align: center;
+}
+
+
