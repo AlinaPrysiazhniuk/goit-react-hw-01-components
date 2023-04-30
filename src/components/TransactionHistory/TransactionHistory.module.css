@@ -11,12 +11,13 @@
 }
 
 .thead {
-  background-color: #4dbecd;
+  background-color: #4ea7d3;
   color: #ffffff;
 }
 
 .tr_thead {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .th_thead {
