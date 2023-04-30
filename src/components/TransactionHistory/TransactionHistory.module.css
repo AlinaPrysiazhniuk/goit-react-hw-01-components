@@ -3,6 +3,7 @@
   margin-right: auto;
   margin-top: 32px;
   margin-bottom: 32px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .transaction_body {
@@ -20,13 +21,12 @@
 
 .th_thead {
   width: 20%;
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 
 .td_thead {
-  width: 20%;
-  padding: 12px;
+  padding: 15px;
   text-align: center;
 }
 
