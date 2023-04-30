@@ -2,14 +2,18 @@ p {
     margin: 0;
 }
 
+
+
 .profile{
+    background-color: rgb(217, 199, 240);
     display: block;
     width: 300px;
-    height: 360px;
+    height: 320px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+    border-radius: 10px;
 }
 
 .description {  
@@ -26,11 +30,13 @@ p {
 }
 
 .name{
-    /* font-size: 24;
-    color: red; */
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.tag{}
+.tag{
+    font-weight: 500;  
+}
 
 .location{}
 
@@ -41,9 +47,11 @@ p {
     padding: 10px;
 }
 
-.label{}
+.label{
+    font-weight: 600;
+}
 
-.quantity{}
+
 
 .item {
     display: flex;
