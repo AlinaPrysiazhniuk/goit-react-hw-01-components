@@ -17,3 +17,32 @@
   width: 260px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+
+
+
+.name {
+  font-size: 20px;
+}
+
+.avatar {
+  width: 52px;
+}
+
+
+.status_online {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  background-color: green;
+}
+
+.status_offline {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  background-color: red;
+}
