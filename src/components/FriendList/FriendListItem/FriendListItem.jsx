@@ -8,8 +8,6 @@ return (
                   <img className={css.avatar} src={friend.avatar} alt={friend.name} width="48"/>
                      <p className={css.name}>Adsdsd</p>
          </li>
-  
-   
 )
 }
 
