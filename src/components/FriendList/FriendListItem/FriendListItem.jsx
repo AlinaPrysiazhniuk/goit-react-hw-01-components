@@ -6,7 +6,7 @@ return (
          <li className={css.item}>
                 { (friend.isOnline) === true ? <span className={css.status_online}></span>  : <span className={css.status_offline}></span>}
                   <img className={css.avatar} src={friend.avatar} alt={friend.name} width="48"/>
-                     <p className={css.name}>Adsdsd</p>
+                     <p className={css.name}>{friend.name}</p>
          </li>
 )
 }
